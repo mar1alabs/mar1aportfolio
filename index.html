@@ -1,0 +1,25 @@
+<!-- Barra de Progreso de Scroll -->
+<div id="scroll-progress"></div>
+
+<!-- Terminal Flotante / Console Overlay -->
+<div id="terminal-modal" class="terminal-modal hidden">
+    <div class="terminal-window">
+        <div class="terminal-header">
+            <span>bash - 80x24</span>
+            <button id="close-terminal">X</button>
+        </div>
+        <div class="terminal-logs" id="terminal-logs">
+            <p><span class="green">system@mlm-sec</span>:~$ Type <span class="purple">'help'</span> for available commands.</p>
+        </div>
+        <div class="terminal-input-line">
+            <span class="prompt">&gt;_</span>
+            <input type="text" id="terminal-input" placeholder="Type command..." autofocus>
+        </div>
+    </div>
+</div>
+
+<!-- Botón Flotante para Abrir Terminal y Toggle CRT -->
+<div class="floating-controls">
+    <button id="toggle-crt" title="Efecto Monitor Retro">CRT ON/OFF</button>
+    <button id="open-terminal" class="btn-console">&gt;_ CONSOLE</button>
+</div>
