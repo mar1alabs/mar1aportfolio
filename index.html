@@ -4,22 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>María León Martínez | Cybersecurity & SysAdmin</title>
+    <title>María León Martínez | Cybersecurity & Systems</title>
+
+    <meta name="description" content="Portfolio de María León Martínez — Ciberseguridad, Red Team, Blue Team, OSINT, Sistemas y Cloud.">
+    <meta name="author" content="María León Martínez">
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
-    <!-- Fonts -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Press+Start+2P&display=swap" rel="stylesheet">
 
-    <!-- Icons -->
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    >
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
@@ -27,80 +26,44 @@
 
 <body>
 
-    <!-- =====================================================
+    <!-- =========================
          NAVBAR
-         ===================================================== -->
-
+    ========================== -->
     <nav class="navbar">
+        <a href="#inicio" class="logo">&gt;_ MLM</a>
 
-        <div class="nav-container">
-
-            <a href="#inicio" class="logo">
-                &gt;_ MLM
-            </a>
-
-            <ul class="nav-links">
-
-                <li>
-                    <a href="#sobre-mi">
-                        sobre-mi
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#habilidades">
-                        habilidades
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#experiencia">
-                        experiencia
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#educacion">
-                        educacion
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#contacto">
-                        contacto
-                    </a>
-                </li>
-
-            </ul>
-
-        </div>
-
+        <ul class="nav-links">
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#experiencia">Experiencia</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
     </nav>
 
 
-    <!-- =====================================================
+    <!-- =========================
          HERO
-         ===================================================== -->
-
+    ========================== -->
     <section class="hero" id="inicio">
+        <div class="hero-container">
 
-        <div class="hero-content">
+            <div class="hero-content">
 
-            <div class="hero-text">
-
-                <div class="hero-terminal">
+                <div class="sub-title">
                     &gt; system.init()
                 </div>
 
                 <h1>
-                    MARÍA LEÓN MARTÍNEZ
+                    MARÍA LEÓN<br>
+                    MARTÍNEZ
                 </h1>
 
                 <h2>
-                    Administradora de Sistemas especializada en Ciberseguridad
+                    Administradora de Sistemas<br>
+                    especializada en Ciberseguridad
                 </h2>
 
-                <div class="hero-roles">
+                <div class="roles">
                     &gt; Cybersecurity Analyst |
                     Red Team |
                     Blue Team |
@@ -110,95 +73,75 @@
                     Cloud
                 </div>
 
-                <p class="hero-description">
-                    Especializada en administración de sistemas,
-                    ciberseguridad, monitorización, hardening,
-                    análisis de amenazas y automatización.
+                <p>
+                    Profesional de sistemas especializada en ciberseguridad,
+                    con interés en seguridad ofensiva y defensiva, análisis
+                    de amenazas, OSINT, administración de sistemas y
+                    tecnologías cloud.
                 </p>
 
-
-                <!-- HERO BUTTONS -->
-
-                <div class="hero-buttons">
-
+                <div class="cta-buttons">
                     <a href="#contacto" class="btn btn-primary">
                         <i class="fa-solid fa-terminal"></i>
                         Contacto
                     </a>
 
-                    <a
-                        href="CVMariaLeon.pdf"
-                        class="btn btn-primary"
-                        download
-                    >
-                        <i class="fa-solid fa-download"></i>
+                    <a href="CVMariaLeon.pdf" class="btn btn-primary" download>
+                        <i class="fa-solid fa-file-arrow-down"></i>
                         Descargar CV
                     </a>
-
                 </div>
 
             </div>
 
 
-            <!-- =================================================
-                 PIXEL COMPUTER
-                 ================================================= -->
-
+            <!-- TERMINAL -->
             <div class="pixel-computer">
 
                 <div class="screen">
 
-                    <div class="screen-title">
-                        SECURITY TERMINAL
+                    <div class="terminal-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+
+                        <span>maria@cybersec:~</span>
                     </div>
 
-                    <div>
-                        <span class="prompt">
-                            mlm@sec-node:~$
-                        </span>
-                        status
-                    </div>
+                    <div class="terminal-body">
 
-                    <br>
+                        <p>
+                            <span class="prompt">maria@cybersec:~$</span>
+                            whoami
+                        </p>
 
-                    <div class="status-ok">
-                        [OK] Firewall Active
-                    </div>
+                        <p class="status-ok">
+                            María León Martínez
+                        </p>
 
-                    <div class="status-ok">
-                        [OK] Monitoring Logs
-                    </div>
+                        <p>
+                            <span class="prompt">maria@cybersec:~$</span>
+                            cat profile.txt
+                        </p>
 
-                    <div class="status-ok">
-                        [OK] Hardening Ready
-                    </div>
+                        <p class="status-ok">
+                            Cybersecurity &amp; Systems
+                        </p>
 
-                    <div class="status-ok">
-                        [OK] Threat Detection Online
-                    </div>
+                        <p>
+                            <span class="prompt">maria@cybersec:~$</span>
+                            ls skills/
+                        </p>
 
-                    <br>
+                        <p class="status-ok">
+                            red-team/ blue-team/ osint/ cloud/
+                        </p>
 
-                    <div>
-                        <span class="prompt">
-                            mlm@sec-node:~$
-                        </span>
-                        whoami
-                    </div>
+                        <p>
+                            <span class="prompt">maria@cybersec:~$</span>
+                            <span class="cursor"></span>
+                        </p>
 
-                    <div>
-                        cybersecurity &amp; systems
-                    </div>
-
-                    <br>
-
-                    <div>
-                        <span class="prompt">
-                            mlm@sec-node:~$
-                        </span>
-                        <span class="cursor">
-                            _
-                        </span>
                     </div>
 
                 </div>
@@ -206,311 +149,91 @@
             </div>
 
         </div>
-
     </section>
 
 
-    <!-- =====================================================
+    <!-- =========================
          SOBRE MÍ
-         ===================================================== -->
+    ========================== -->
+    <section class="section" id="sobre-mi">
 
-    <section id="sobre-mi">
+        <h2 class="section-title">
+            <span class="hashtag">#</span>
+            Sobre mí
+        </h2>
 
-        <div class="container">
+        <div class="grid-2">
 
-            <h2 class="section-title">
-                Sobre mí
-            </h2>
+            <!-- CARD PERFIL -->
+            <div class="card">
 
-            <p class="about-text">
-                Soy <strong>María León</strong>, Técnica Superior en
-                Administración de Sistemas Informáticos en Red con
-                especial interés en <span class="highlight">Ciberseguridad</span>.
-            </p>
+                <div class="card-header">
+                    <i class="fa-solid fa-user-secret"></i>
+                    perfil.txt
+                </div>
 
-            <p class="about-text">
-                Combino conocimientos de
-                <strong>Blue Team</strong>,
-                <strong>Red Team</strong>,
-                <strong>OSINT</strong> y
-                <strong>administración de sistemas</strong>
-                para comprender, detectar y analizar diferentes
-                tipos de amenazas.
-            </p>
+                <p>
+                    Soy administradora de sistemas especializada en
+                    ciberseguridad, con una visión orientada tanto a la
+                    seguridad ofensiva como defensiva.
+                </p>
 
-            <p class="about-text">
-                Mi experiencia incluye monitorización de
-                infraestructuras, gestión de incidencias,
-                análisis de logs, hardening de sistemas
-                Linux/Windows y desarrollo de automatizaciones
-                mediante Python.
-            </p>
+                <p>
+                    Mi perfil combina administración de sistemas,
+                    hardening, monitorización, análisis de seguridad,
+                    OSINT y tecnologías cloud.
+                </p>
 
-            <p class="about-text">
-                Actualmente orientada a posiciones
-                <span class="highlight">
-                    Junior SOC Analyst, Cybersecurity Analyst
-                    y Blue Team Analyst
-                </span>.
-            </p>
+                <p>
+                    Me interesa especialmente comprender cómo funcionan
+                    los sistemas para poder identificar, analizar y
+                    prevenir amenazas.
+                </p>
 
-        </div>
-
-    </section>
+            </div>
 
 
-    <!-- =====================================================
-         HABILIDADES
-         ===================================================== -->
+            <!-- CARD OBJETIVO -->
+            <div class="card">
 
-    <section id="habilidades">
+                <div class="card-header">
+                    <i class="fa-solid fa-crosshairs"></i>
+                    focus.txt
+                </div>
 
-        <div class="container">
+                <ul class="skill-list">
 
-            <h2 class="section-title">
-                Habilidades
-            </h2>
-
-
-            <div class="cards-grid">
-
-
-                <!-- CIBERSEGURIDAD -->
-
-                <div class="card">
-
-                    <div class="card-header">
+                    <li>
+                        <i class="fa-solid fa-shield-halved"></i>
                         Ciberseguridad
-                    </div>
+                    </li>
 
-                    <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-user-ninja"></i>
+                        Red Team
+                    </li>
 
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Análisis de vulnerabilidades
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Hardening Windows / Linux
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Monitorización y análisis de logs
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Respuesta ante incidentes
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Seguridad de redes
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            IAM
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- SISTEMAS Y REDES -->
-
-                <div class="card">
-
-                    <div class="card-header">
-                        Sistemas &amp; Redes
-                    </div>
-
-                    <ul class="skill-list">
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Linux / Ubuntu
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Windows
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Active Directory / GPO
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Gestión de usuarios y permisos
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            TCP/IP
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            DNS / DHCP
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            VMware / VirtualBox
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- BLUE TEAM -->
-
-                <div class="card">
-
-                    <div class="card-header">
+                    <li>
+                        <i class="fa-solid fa-lock"></i>
                         Blue Team
-                    </div>
+                    </li>
 
-                    <div class="sub-title">
-                        Defensive Operations
-                    </div>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        OSINT &amp; Threat Intelligence
+                    </li>
 
-                    <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-server"></i>
+                        Systems Administration
+                    </li>
 
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Incident Response
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Log Analysis
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            SIEM / SecOps
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            System Hardening
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- RED TEAM / OSINT -->
-
-                <div class="card">
-
-                    <div class="card-header">
-                        Red Team &amp; OSINT
-                    </div>
-
-                    <div class="sub-title">
-                        Offensive Security &amp; Intelligence
-                    </div>
-
-                    <ul class="skill-list">
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Reconocimiento
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            OSINT
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Threat Intelligence
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Hacking Ético
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- SCRIPTING -->
-
-                <div class="card">
-
-                    <div class="card-header">
-                        Scripting &amp; Development
-                    </div>
-
-                    <ul class="skill-list">
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Python
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Bash
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Automatización
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Desarrollo Web
-                        </li>
-
-                    </ul>
-
-                </div>
-
-
-                <!-- CLOUD -->
-
-                <div class="card">
-
-                    <div class="card-header">
+                    <li>
+                        <i class="fa-solid fa-cloud"></i>
                         Cloud Computing
-                    </div>
+                    </li>
 
-                    <ul class="skill-list">
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Amazon Web Services
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Fundamentos Cloud
-                        </li>
-
-                        <li>
-                            <i class="fa-solid fa-chevron-right"></i>
-                            Infraestructura
-                        </li>
-
-                    </ul>
-
-                </div>
+                </ul>
 
             </div>
 
@@ -519,75 +242,188 @@
     </section>
 
 
-    <!-- =====================================================
+    <!-- =========================
+         ÁREAS / SKILLS
+    ========================== -->
+    <section class="section" id="skills">
+
+        <h2 class="section-title">
+            <span class="hashtag">#</span>
+            Áreas de especialización
+        </h2>
+
+        <div class="grid-2">
+
+            <div class="card">
+
+                <div class="card-header">
+                    <i class="fa-solid fa-user-ninja"></i>
+                    Red Team
+                </div>
+
+                <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Ethical Hacking
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Pentesting
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Reconocimiento
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Vulnerability Assessment
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-header">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    Blue Team
+                </div>
+
+                <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Defensive Security
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Hardening
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Monitoring
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Incident Response
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-header">
+                    <i class="fa-solid fa-eye"></i>
+                    OSINT
+                </div>
+
+                <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Open Source Intelligence
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Threat Intelligence
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Reconocimiento digital
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Investigación
+                    </li>
+                </ul>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="card-header">
+                    <i class="fa-solid fa-server"></i>
+                    Systems &amp; Cloud
+                </div>
+
+                <ul class="skill-list">
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Linux &amp; Windows
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Administración de sistemas
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Redes
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-chevron-right"></i>
+                        Amazon Web Services
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
          EXPERIENCIA
-         ===================================================== -->
+    ========================== -->
+    <section class="section" id="experiencia">
 
-    <section id="experiencia">
+        <h2 class="section-title">
+            <span class="hashtag">#</span>
+            Experiencia
+        </h2>
 
-        <div class="container">
+        <div class="timeline">
 
-            <h2 class="section-title">
-                Experiencia
-            </h2>
+            <div class="timeline-item">
 
+                <div class="timeline-dot"></div>
 
-            <div class="timeline">
-
-
-                <!-- ENKROSS -->
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot"></div>
-
-                    <div class="date">
-                        2024 — 2025
-                    </div>
-
-                    <div class="company">
-                        ENKROSS
-                    </div>
-
-                    <div class="job-title">
-                        Desarrolladora Web / Sistemas
-                    </div>
-
-                    <p class="timeline-description">
-                        Desarrollo de aplicaciones web y de escritorio
-                        utilizando Python, automatización de tareas
-                        y desarrollo de soluciones orientadas a la
-                        optimización de procesos.
-                    </p>
-
+                <div class="date">
+                    Experiencia profesional
                 </div>
 
-
-                <!-- CAPGEMINI -->
-
-                <div class="timeline-item">
-
-                    <div class="timeline-dot"></div>
-
-                    <div class="date">
-                        2023
-                    </div>
-
-                    <div class="company">
-                        CAPGEMINI
-                    </div>
-
-                    <div class="job-title">
-                        Técnica de Sistemas / SAP
-                    </div>
-
-                    <p class="timeline-description">
-                        Supervisión de sistemas, gestión de incidencias,
-                        monitorización, análisis de logs y soporte
-                        relacionado con entornos SAP.
-                    </p>
-
+                <div class="company">
+                    Administración de Sistemas &amp; Ciberseguridad
                 </div>
+
+                <p>
+                    Experiencia y formación práctica orientada a la
+                    administración de infraestructuras, sistemas,
+                    redes y seguridad informática.
+                </p>
+
+            </div>
+
+
+            <div class="timeline-item">
+
+                <div class="timeline-dot"></div>
+
+                <div class="date">
+                    Ciberseguridad
+                </div>
+
+                <div class="company">
+                    Seguridad ofensiva y defensiva
+                </div>
+
+                <p>
+                    Desarrollo de conocimientos en Ethical Hacking,
+                    Red Team, Blue Team, OSINT, análisis de
+                    vulnerabilidades y seguridad de sistemas.
+                </p>
 
             </div>
 
@@ -596,135 +432,90 @@
     </section>
 
 
-    <!-- =====================================================
-         EDUCACIÓN
-         ===================================================== -->
+    <!-- =========================
+         FORMACIÓN
+    ========================== -->
+    <section class="section" id="formacion">
 
-    <section id="educacion">
+        <h2 class="section-title">
+            <span class="hashtag">#</span>
+            Formación
+        </h2>
 
-        <div class="container">
+        <div class="card">
 
-            <h2 class="section-title">
-                Educación
-            </h2>
+            <div class="edu-item">
 
-
-            <div class="education-list">
-
-
-                <!-- MASTER BIG SCHOOL -->
-
-                <div class="edu-item">
-
-                    <div class="edu-date">
-                        2026
-                    </div>
-
-                    <div class="edu-title">
+                <div>
+                    <h4>
                         Máster en Ciberseguridad y Hacking Ético
-                    </div>
+                    </h4>
 
-                    <div class="edu-center">
+                    <p class="institution">
                         Big School
-                    </div>
-
+                    </p>
                 </div>
 
+                <span class="badge">
+                    2026
+                </span>
 
-                <!-- AWS -->
+            </div>
 
-                <div class="edu-item">
 
-                    <div class="edu-date">
-                        2026
-                    </div>
+            <div class="edu-item">
 
-                    <div class="edu-title">
+                <div>
+                    <h4>
                         Curso en Cloud Computing con Amazon Web Services (AWS)
-                    </div>
+                    </h4>
 
-                    <div class="edu-center">
+                    <p class="institution">
                         Universitat Politècnica de València (UPV)
-                    </div>
-
+                    </p>
                 </div>
 
+                <span class="badge">
+                    2026
+                </span>
 
-                <!-- CEI -->
+            </div>
 
-                <div class="edu-item">
 
-                    <div class="edu-date">
-                        2025 — 2026
-                    </div>
+            <div class="edu-item">
 
-                    <div class="edu-title">
-                        Máster Ciberseguridad e Inteligencia Artificial (IA)
-                    </div>
+                <div>
+                    <h4>
+                        Máster en Ciberseguridad e Inteligencia Artificial
+                    </h4>
 
-                    <div class="edu-center">
+                    <p class="institution">
                         CEI
-                    </div>
-
+                    </p>
                 </div>
 
+                <span class="badge">
+                    2025–2026
+                </span>
 
-                <!-- ASIR -->
+            </div>
 
-                <div class="edu-item">
 
-                    <div class="edu-date">
-                        2021 — 2023
-                    </div>
+            <div class="edu-item">
 
-                    <div class="edu-title">
-                        Técnico Superior en Administración de Sistemas
-                        Informáticos en Red (ASIR)
-                    </div>
+                <div>
+                    <h4>
+                        Grado Superior en Administración de Sistemas Informáticos en Red
+                    </h4>
 
-                    <div class="edu-center">
-                        Linkia FP
-                    </div>
-
+                    <p class="institution">
+                        ASIR
+                    </p>
                 </div>
 
-
-                <!-- AZ-900 -->
-
-                <div class="edu-item">
-
-                    <div class="edu-date">
-                        2026
-                    </div>
-
-                    <div class="edu-title">
-                        Microsoft Azure Fundamentals — AZ-900
-                    </div>
-
-                    <div class="edu-center">
-                        Microsoft
-                    </div>
-
-                </div>
-
-
-                <!-- ENGLISH -->
-
-                <div class="edu-item">
-
-                    <div class="edu-date">
-                        2026
-                    </div>
-
-                    <div class="edu-title">
-                        English B2 First
-                    </div>
-
-                    <div class="edu-center">
-                        Cambridge
-                    </div>
-
-                </div>
+                <span class="badge">
+                    ASIR
+                </span>
 
             </div>
 
@@ -733,64 +524,52 @@
     </section>
 
 
-    <!-- =====================================================
+    <!-- =========================
          CONTACTO
-         ===================================================== -->
+    ========================== -->
+    <section class="section" id="contacto">
 
-    <section id="contacto">
+        <h2 class="section-title">
+            <span class="hashtag">#</span>
+            Contacto
+        </h2>
 
-        <div class="container">
+        <div class="contact-card">
 
-            <h2 class="section-title">
-                Contacto
-            </h2>
+            <p class="contact-intro">
+                ¿Hablamos de ciberseguridad, sistemas o tecnología?
+            </p>
 
-            <div class="contact-grid">
-
-
-                <!-- EMAIL -->
+            <div class="social-links">
 
                 <a
                     href="mailto:leonmaria.info@gmail.com"
                     class="social-item"
                 >
                     <i class="fa-solid fa-envelope"></i>
-
-                    <span>
-                        Email
-                    </span>
+                    <span>leonmaria.info@gmail.com</span>
                 </a>
 
-
-                <!-- LINKEDIN -->
-
-                <a
-                    href="https://www.linkedin.com/in/mar%C3%ADale%C3%B3nmart%C3%ADnez/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="social-item"
-                >
-                    <i class="fa-brands fa-linkedin"></i>
-
-                    <span>
-                        LinkedIn
-                    </span>
-                </a>
-
-
-                <!-- GITHUB -->
 
                 <a
                     href="https://github.com/mar1alabs"
+                    class="social-item"
                     target="_blank"
                     rel="noopener noreferrer"
-                    class="social-item"
                 >
                     <i class="fa-brands fa-github"></i>
+                    <span>github.com/mar1alabs</span>
+                </a>
 
-                    <span>
-                        GitHub
-                    </span>
+
+                <a
+                    href="https://www.linkedin.com/in/mar%C3%ADale%C3%B3nmart%C3%ADnez/"
+                    class="social-item"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <i class="fa-brands fa-linkedin"></i>
+                    <span>LinkedIn</span>
                 </a>
 
             </div>
@@ -799,24 +578,20 @@
 
     </section>
 
-
-    <!-- =====================================================
-         FOOTER
-         ===================================================== -->
-
     <footer>
 
-        <div>
-            <span class="terminal">
-                &gt;_
-            </span>
+        <p>
+            <span class="prompt">&gt;_</span>
+            María León Martínez
+        </p>
 
-            © 2026 María León Martínez
+        <p>
+            Cybersecurity · Systems · Cloud
+        </p>
 
-            <span class="pink">
-                — Built with pixel passion &amp; security mindset.
-            </span>
-        </div>
+        <p>
+            © 2026
+        </p>
 
     </footer>
 
