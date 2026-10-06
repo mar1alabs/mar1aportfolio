@@ -1,7 +1,3 @@
-/* =========================================
-   VARIABLES
-========================================= */
-
 :root {
     --bg-color: #0b0914;
     --card-bg: #131024;
@@ -215,8 +211,9 @@ ul {
     font-weight: 700;
 }
 
-.card-header i {
-    color: var(--accent-pink);
+.card-header::before {
+    content: ">_";
+    color: var(--green-terminal);
 }
 
 
@@ -242,6 +239,10 @@ ul {
     gap: 70px;
 
     align-items: center;
+}
+
+.hero-content {
+    min-width: 0;
 }
 
 .sub-title {
@@ -314,7 +315,6 @@ ul {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
 
     min-height: 48px;
 
@@ -498,10 +498,10 @@ ul {
     font-size: 0.9rem;
 }
 
-.skill-list i {
-    width: 20px;
-
+.skill-list li::before {
+    content: ">";
     color: var(--accent-pink);
+    font-weight: 700;
 }
 
 
@@ -690,8 +690,10 @@ ul {
     transform: translateY(-2px);
 }
 
-.social-item i {
-    color: var(--accent-pink);
+.social-item::before {
+    content: ">_";
+    color: var(--green-terminal);
+    font-weight: 700;
 }
 
 
