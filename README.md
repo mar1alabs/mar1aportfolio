@@ -1,15 +1,15 @@
 # `root@marialabs:~# whoami`
 
 <p align="center">
-  <img src="./portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
+  <img src="./portfolio-preview.png" alt="Portfolio de María León Martínez" width="100%">
 </p>
 
 <p align="center">
   <a href="https://mar1alabs.github.io/mar1aportfolio/">
-    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-EC4899?style=for-the-badge&labelColor=111111" alt="Portfolio">
+    <img src="https://img.shields.io/badge/PORTFOLIO-EC4899?style=for-the-badge&labelColor=111111" alt="Portfolio">
   </a>
   <a href="./CV_ML_CIBER.pdf">
-    <img src="https://img.shields.io/badge/📄_MI_CV-39FF88?style=for-the-badge&labelColor=111111" alt="Currículum">
+    <img src="https://img.shields.io/badge/VIEW_CV-39FF88?style=for-the-badge&labelColor=111111" alt="Currículum">
   </a>
   <a href="https://www.linkedin.com/in/mar%C3%ADale%C3%B3nmart%C3%ADnez/">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
@@ -26,15 +26,15 @@
 └─$ cat about_me.txt
 ```
 
-## 👩🏻‍💻 Perfil profesional
+## 01. Perfil profesional
 
 Soy María, Técnica Superior en Administración de Sistemas Informáticos en Red, con especial interés en la **ciberseguridad y la administración de sistemas**.
 
-Mi perfil combina conocimientos de Blue Team, Red Team, OSINT, automatización y análisis de amenazas. Me interesa seguir aprendiendo, poner en práctica mis conocimientos y desarrollar mi carrera profesional en el sector tecnológico.
+Mi perfil combina conocimientos de Blue Team, Red Team, OSINT, automatización y análisis de amenazas. Me interesa seguir ampliando mis conocimientos, desarrollar proyectos prácticos y crecer profesionalmente en el sector tecnológico.
 
-## 🛡️ Áreas de especialización
+## 02. Áreas de especialización
 
-### 🔵 Blue Team · Defensa y detección
+### Blue Team | Defensa y detección
 
 - Monitorización y análisis de logs.
 - Gestión de incidencias y respuesta ante incidentes.
@@ -42,7 +42,7 @@ Mi perfil combina conocimientos de Blue Team, Red Team, OSINT, automatización y
 - Administración de redes, Active Directory y políticas GPO.
 - Virtualización y mantenimiento de infraestructuras.
 
-### 🔴 Red Team · Hacking ético
+### Red Team | Hacking ético
 
 - Análisis y evaluación de vulnerabilidades.
 - Reconocimiento y recopilación de información.
@@ -50,47 +50,62 @@ Mi perfil combina conocimientos de Blue Team, Red Team, OSINT, automatización y
 - Investigación de posibles vectores de ataque.
 - Automatización de tareas y análisis mediante Python.
 
-## 💼 Experiencia profesional
+## 03. Experiencia profesional
 
 ### Desarrolladora Web — Enkross
+
 `2024 – 2025`
 
 - Desarrollo de aplicaciones web y de escritorio en Python para automatizar procesos internos.
 - Creación de scripts para optimizar tareas operativas.
 
 ### Técnica de Sistemas & SAP — Capgemini
+
 `2023`
 
 - Gestión de incidencias, monitorización y análisis de logs.
 - Supervisión de infraestructura técnica y administración de entornos SAP.
 
-## 🧰 Stack técnico
+## 04. Stack técnico
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows,python,bash,docker,mysql,git,vscode&perline=9" alt="Tecnologías y herramientas">
 </p>
 
-**Sistemas y redes:** `Linux` · `Windows` · `Active Directory` · `TCP/IP` · `DNS` · `DHCP` · `VMware` · `VirtualBox`
+**Sistemas y redes**
 
-**Ciberseguridad:** `Blue Team` · `Red Team` · `OSINT` · `Análisis de vulnerabilidades` · `Threat Intelligence`
+`Linux` · `Windows` · `Active Directory` · `TCP/IP` · `DNS` · `DHCP` · `VMware` · `VirtualBox`
 
-**Automatización y desarrollo:** `Python` · `Bash` · `HTML` · `CSS` · `JavaScript` · `Git`
+**Ciberseguridad**
 
-**Cloud:** `Amazon Web Services (AWS)`
+`Blue Team` · `Red Team` · `OSINT` · `Análisis de vulnerabilidades` · `Threat Intelligence`
 
-## 📂 Proyectos destacados
+**Automatización y desarrollo**
+
+`Python` · `Bash` · `HTML` · `CSS` · `JavaScript` · `Git`
+
+**Cloud Computing**
+
+`Amazon Web Services (AWS)`
+
+## 05. Proyectos destacados
 
 ```bash
 ┌──(mery㉿cyberlab)-[~/projects]
 └─$ ls
 ```
 
-- **DC:9 — VulnHub:** laboratorio práctico de hacking ético, reconocimiento y análisis de vulnerabilidades.
-- **Machine Learning & Explainable AI:** proyecto de aprendizaje automático relacionado con el síndrome de ovario poliquístico y el uso de SHAP para interpretar las predicciones del modelo.
+**DC:9 — VulnHub**
 
-👉 Puedes consultar más detalles y otros proyectos en mi [portfolio online](https://mar1alabs.github.io/mar1aportfolio/).
+Laboratorio práctico de hacking ético, reconocimiento y análisis de vulnerabilidades.
 
-## 🎓 Formación académica
+**Machine Learning & Explainable AI**
+
+Proyecto de aprendizaje automático relacionado con el síndrome de ovario poliquístico y la aplicación de SHAP para interpretar las predicciones del modelo.
+
+Consulta los proyectos y sus detalles en el [portfolio online](https://mar1alabs.github.io/mar1aportfolio/).
+
+## 06. Formación académica
 
 **Máster en Ciberseguridad y Hacking Ético**  
 Big School · 2026
@@ -106,7 +121,7 @@ Universitat Politècnica de València (UPV) · 2026
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-39FF88?style=for-the-badge&labelColor=111111" alt="Siempre aprendiendo">
+  <img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-39FF88?style=for-the-badge&labelColor=111111" alt="Estado: aprendizaje continuo">
 </p>
 
 <p align="center">
