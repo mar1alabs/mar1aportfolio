@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://mar1alabs.github.io/mar1aportfolio/">
-    <img src="assets/portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
+    <img src="portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
   </a>
 </p>
 
