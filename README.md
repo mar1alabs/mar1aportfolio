@@ -1,75 +1,69 @@
-# 💻 María León Martínez | Cybersecurity & SysAdmin
+# `root@marialabs:~# whoami`
 
 <p align="center">
-  <a href="https://mar1alabs.github.io/mar1aportfolio/">
-    <img src="portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
-  </a>
+  <img src="./portfolio-preview.png" alt="Vista previa de mi portfolio" width="100%">
 </p>
 
 <p align="center">
   <a href="https://mar1alabs.github.io/mar1aportfolio/">
-    <strong>🌐 VER MI PORTFOLIO ONLINE</strong>
+    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-FF4FA3?style=for-the-badge&labelColor=111111" alt="Ver portfolio">
   </a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/mar1alabs/mar1aportfolio">
-    <strong>📂 VER REPOSITORIO</strong>
+  <a href="./CV_ML_CIBER.pdf">
+    <img src="https://img.shields.io/badge/📄_MI_CV-39FF88?style=for-the-badge&labelColor=111111" alt="Ver CV">
+  </a>
+  <a href="https://github.com/mar1alabs">
+    <img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=FF4FA3" alt="GitHub">
   </a>
 </p>
 
----
+```bash
+┌──(mery㉿cyberlab)-[~]
+└─$ cat about_me.txt
+```
 
-## 👩🏻‍💻 Sobre mí
+### 👩🏻‍💻 ABOUT ME
 
-Soy **María León Martínez**, administradora de sistemas especializada en ciberseguridad, con formación en hacking ético, inteligencia artificial y sistemas informáticos en red.
+¡Hola! Soy **María León Martínez**, y estoy construyendo mi camino profesional en el mundo de la tecnología.
 
-Me interesa especialmente la monitorización de seguridad, el análisis de vulnerabilidades, la respuesta ante incidentes y la protección de infraestructuras.
+🎓 Máster en Ciberseguridad e Inteligencia Artificial.
 
-Actualmente, mi objetivo es seguir creciendo profesionalmente en posiciones Junior de **SOC Analyst, Cybersecurity Analyst y Blue Team Analyst**.
+☁️ Formación en Cloud Computing con Amazon Web Services (AWS) — UPV.
 
-## 🚀 Sobre el proyecto
+🔐 Interesada en ciberseguridad, administración de sistemas y protección de infraestructuras.
 
-Este repositorio contiene mi portfolio web personal, desarrollado para presentar mi perfil profesional, mi experiencia, mi formación y algunos de los proyectos que he realizado.
+💻 Me gusta aprender, experimentar y convertir la teoría en proyectos prácticos.
 
-La web tiene una estética inspirada en terminales Linux y entornos de ciberseguridad, con un diseño oscuro, detalles en rosa neón y verde terminal, y una interfaz adaptada a dispositivos móviles.
+### 🗂️ PROJECTS
 
-## 🛠️ Tecnologías utilizadas
+```bash
+$ ls ./projects
+```
 
-- **HTML5:** estructura y contenido.
-- **CSS3:** diseño responsive, animaciones y efectos visuales.
-- **JavaScript:** funcionalidades e interactividad.
-- **Lucide Icons:** iconos de la interfaz.
-- **Google Fonts:** tipografías Fira Code y Press Start 2P.
+- **DC:9 — VulnHub:** laboratorio práctico de pentesting y análisis de vulnerabilidades.
+- **Machine Learning & XAI:** proyecto de aprendizaje automático y explicabilidad mediante SHAP.
 
-## 🔐 ¿Qué encontrarás?
+### 🛠️ TECH STACK
 
-- **Sobre mí:** presentación y objetivos profesionales.
-- **Habilidades técnicas:** ciberseguridad, sistemas y redes.
-- **Experiencia laboral:** experiencia en desarrollo, sistemas y gestión de incidencias.
-- **Formación:** ciberseguridad, hacking ético, inteligencia artificial y cloud computing.
-- **Certificaciones:** Microsoft Azure Fundamentals (AZ-900).
-- **Proyectos:** trabajos de pentesting, análisis de vulnerabilidades y Machine Learning.
-- **Contacto:** información para conectar conmigo profesionalmente.
+<p align="center">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111">
+  <img src="https://img.shields.io/badge/Cybersecurity-FF4FA3?style=flat-square">
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
+</p>
 
-## 🧪 Proyectos destacados
+### 📡 FIND ME
 
-### 🔎 Riesgos ocultos: análisis de vulnerabilidades y compromiso del sistema
+- 🌐 **Portfolio:** https://mar1alabs.github.io/mar1aportfolio/
+- 📄 **Currículum:** [CV_ML_CIBER.pdf](./CV_ML_CIBER.pdf)
+- 💼 **LinkedIn:** [Mi perfil profesional](PEGA_AQUI_TU_URL_DE_LINKEDIN)
+- 🐙 **GitHub:** [@mar1alabs](https://github.com/mar1alabs)
 
-Evaluación de seguridad de la máquina DC:9 de VulnHub, incluyendo reconocimiento, enumeración, explotación controlada, escalada de privilegios y propuestas de remediación.
+```bash
+┌──(mery㉿cyberlab)-[~]
+└─$ echo "Learning. Building. Securing."
+```
 
-**Tecnologías y conceptos:** Pentesting, SQL Injection, LFI, SSH, OWASP, NIST y CIS Benchmarks.
-
-### 🤖 Machine Learning aplicado a la salud femenina
-
-Desarrollo de un modelo predictivo relacionado con el síndrome de ovario poliquístico, desde el preprocesamiento y análisis de datos hasta la evaluación e interpretación mediante Explainable AI.
-
-**Tecnologías y conceptos:** Python, Machine Learning, SHAP, XAI y análisis de datos.
-
-## 🎯 Objetivo
-
-Este portfolio es una muestra de mi aprendizaje y evolución en el ámbito tecnológico. Mi intención es seguir desarrollando proyectos prácticos, ampliar mis conocimientos y crecer profesionalmente en ciberseguridad.
-
----
-
-`>_` Siempre aprendiendo. Siempre mejorando.
-
-**María León Martínez** · Cybersecurity & SysAdmin
+<p align="center">
+  <img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-39FF88?style=for-the-badge&labelColor=111111">
+</p>
