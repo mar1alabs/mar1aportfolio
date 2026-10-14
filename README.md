@@ -4,12 +4,6 @@
   <img src="./portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
 </p>
 
-<h1 align="center">María León Martínez</h1>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=900&color=EC4899&center=true&vCenter=true&width=700&lines=Cybersecurity+%26+Ethical+Hacking;Blue+Team+%7C+Red+Team;OSINT+%26+Threat+Intelligence;Systems+Administration;Cloud+Computing" alt="Especialidades de María León Martínez">
-</p>
-
 <p align="center">
   <a href="https://mar1alabs.github.io/mar1aportfolio/">
     <img src="https://img.shields.io/badge/🌐_PORTFOLIO-EC4899?style=for-the-badge&labelColor=111111" alt="Portfolio">
