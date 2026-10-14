@@ -1,69 +1,120 @@
 # `root@marialabs:~# whoami`
 
 <p align="center">
-  <img src="./portfolio-preview.png" alt="Vista previa de mi portfolio" width="100%">
+  <img src="./portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
+</p>
+
+<h1 align="center">María León Martínez</h1>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=20&pause=900&color=EC4899&center=true&vCenter=true&width=700&lines=Cybersecurity+%26+Ethical+Hacking;Blue+Team+%7C+Red+Team;OSINT+%26+Threat+Intelligence;Systems+Administration;Cloud+Computing" alt="Especialidades de María León Martínez">
 </p>
 
 <p align="center">
   <a href="https://mar1alabs.github.io/mar1aportfolio/">
-    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-FF4FA3?style=for-the-badge&labelColor=111111" alt="Ver portfolio">
+    <img src="https://img.shields.io/badge/🌐_PORTFOLIO-EC4899?style=for-the-badge&labelColor=111111" alt="Portfolio">
   </a>
   <a href="./CV_ML_CIBER.pdf">
-    <img src="https://img.shields.io/badge/📄_MI_CV-39FF88?style=for-the-badge&labelColor=111111" alt="Ver CV">
+    <img src="https://img.shields.io/badge/📄_MI_CV-39FF88?style=for-the-badge&labelColor=111111" alt="Currículum">
   </a>
-  <a href="https://github.com/mar1alabs">
-    <img src="https://img.shields.io/badge/GITHUB-111111?style=for-the-badge&logo=github&logoColor=FF4FA3" alt="GitHub">
+  <a href="https://www.linkedin.com/in/mar%C3%ADale%C3%B3nmart%C3%ADnez/">
+    <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
+  <a href="mailto:leonmaria.info@gmail.com">
+    <img src="https://img.shields.io/badge/EMAIL-BE185D?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
   </a>
 </p>
+
+---
 
 ```bash
 ┌──(mery㉿cyberlab)-[~]
 └─$ cat about_me.txt
 ```
 
-### 👩🏻‍💻 ABOUT ME
+## 👩🏻‍💻 Perfil profesional
 
-¡Hola! Soy **María León Martínez**, y estoy construyendo mi camino profesional en el mundo de la tecnología.
+Soy María, Técnica Superior en Administración de Sistemas Informáticos en Red, con especial interés en la **ciberseguridad y la administración de sistemas**.
 
-🎓 Máster en Ciberseguridad e Inteligencia Artificial.
+Mi perfil combina conocimientos de Blue Team, Red Team, OSINT, automatización y análisis de amenazas. Me interesa seguir aprendiendo, poner en práctica mis conocimientos y desarrollar mi carrera profesional en el sector tecnológico.
 
-☁️ Formación en Cloud Computing con Amazon Web Services (AWS) — UPV.
+## 🛡️ Áreas de especialización
 
-🔐 Interesada en ciberseguridad, administración de sistemas y protección de infraestructuras.
+### 🔵 Blue Team · Defensa y detección
 
-💻 Me gusta aprender, experimentar y convertir la teoría en proyectos prácticos.
+- Monitorización y análisis de logs.
+- Gestión de incidencias y respuesta ante incidentes.
+- Hardening de sistemas Linux y Windows.
+- Administración de redes, Active Directory y políticas GPO.
+- Virtualización y mantenimiento de infraestructuras.
 
-### 🗂️ PROJECTS
+### 🔴 Red Team · Hacking ético
 
-```bash
-$ ls ./projects
-```
+- Análisis y evaluación de vulnerabilidades.
+- Reconocimiento y recopilación de información.
+- OSINT e inteligencia de amenazas.
+- Investigación de posibles vectores de ataque.
+- Automatización de tareas y análisis mediante Python.
 
-- **DC:9 — VulnHub:** laboratorio práctico de pentesting y análisis de vulnerabilidades.
-- **Machine Learning & XAI:** proyecto de aprendizaje automático y explicabilidad mediante SHAP.
+## 💼 Experiencia profesional
 
-### 🛠️ TECH STACK
+### Desarrolladora Web — Enkross
+`2024 – 2025`
+
+- Desarrollo de aplicaciones web y de escritorio en Python para automatizar procesos internos.
+- Creación de scripts para optimizar tareas operativas.
+
+### Técnica de Sistemas & SAP — Capgemini
+`2023`
+
+- Gestión de incidencias, monitorización y análisis de logs.
+- Supervisión de infraestructura técnica y administración de entornos SAP.
+
+## 🧰 Stack técnico
 
 <p align="center">
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white">
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white">
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111">
-  <img src="https://img.shields.io/badge/Cybersecurity-FF4FA3?style=flat-square">
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white">
+  <img src="https://skillicons.dev/icons?i=linux,ubuntu,windows,python,bash,docker,mysql,git,vscode&perline=9" alt="Tecnologías y herramientas">
 </p>
 
-### 📡 FIND ME
+**Sistemas y redes:** `Linux` · `Windows` · `Active Directory` · `TCP/IP` · `DNS` · `DHCP` · `VMware` · `VirtualBox`
 
-- 🌐 **Portfolio:** https://mar1alabs.github.io/mar1aportfolio/
-- 📄 **Currículum:** [CV_ML_CIBER.pdf](./CV_ML_CIBER.pdf)
-- 💼 **LinkedIn:** [Mi perfil profesional](PEGA_AQUI_TU_URL_DE_LINKEDIN)
-- 🐙 **GitHub:** [@mar1alabs](https://github.com/mar1alabs)
+**Ciberseguridad:** `Blue Team` · `Red Team` · `OSINT` · `Análisis de vulnerabilidades` · `Threat Intelligence`
+
+**Automatización y desarrollo:** `Python` · `Bash` · `HTML` · `CSS` · `JavaScript` · `Git`
+
+**Cloud:** `Amazon Web Services (AWS)`
+
+## 📂 Proyectos destacados
 
 ```bash
-┌──(mery㉿cyberlab)-[~]
-└─$ echo "Learning. Building. Securing."
+┌──(mery㉿cyberlab)-[~/projects]
+└─$ ls
 ```
 
+- **DC:9 — VulnHub:** laboratorio práctico de hacking ético, reconocimiento y análisis de vulnerabilidades.
+- **Machine Learning & Explainable AI:** proyecto de aprendizaje automático relacionado con el síndrome de ovario poliquístico y el uso de SHAP para interpretar las predicciones del modelo.
+
+👉 Puedes consultar más detalles y otros proyectos en mi [portfolio online](https://mar1alabs.github.io/mar1aportfolio/).
+
+## 🎓 Formación académica
+
+**Máster en Ciberseguridad y Hacking Ético**  
+Big School · 2026
+
+**Máster en Ciberseguridad e Inteligencia Artificial**  
+CEI · 2025–2026
+
+**Curso en Cloud Computing con Amazon Web Services (AWS)**  
+Universitat Politècnica de València (UPV) · 2026
+
+**Grado Superior en Administración de Sistemas Informáticos en Red (ASIR)**
+
+---
+
 <p align="center">
-  <img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-39FF88?style=for-the-badge&labelColor=111111">
+  <img src="https://img.shields.io/badge/STATUS-ALWAYS_LEARNING-39FF88?style=for-the-badge&labelColor=111111" alt="Siempre aprendiendo">
+</p>
+
+<p align="center">
+  <code>Learning. Building. Securing.</code>
 </p>
