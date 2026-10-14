@@ -1,45 +1,72 @@
 # 💻 María León Martínez | Cybersecurity & SysAdmin
 
-> `root@mlm:~$ whoami`
+<p align="center">
+  <a href="https://mar1alabs.github.io/mar1aportfolio/">
+    <img src="assets/portfolio-preview.png" alt="Vista previa del portfolio de María León Martínez" width="100%">
+  </a>
+</p>
 
-¡Hola! Soy **María León Martínez**, administradora de sistemas especializada en ciberseguridad, con interés en la seguridad ofensiva, la defensa de infraestructuras y la administración de sistemas.
+<p align="center">
+  <a href="https://mar1alabs.github.io/mar1aportfolio/">
+    <strong>🌐 VER MI PORTFOLIO ONLINE</strong>
+  </a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/mar1alabs/mar1aportfolio">
+    <strong>📂 VER REPOSITORIO</strong>
+  </a>
+</p>
 
-He creado este portfolio para presentar mi perfil profesional, mi formación, mis habilidades técnicas y algunos de los proyectos que he desarrollado durante mi aprendizaje en ciberseguridad e inteligencia artificial.
+---
 
-## 🚀 Sobre este proyecto
+## 👩🏻‍💻 Sobre mí
 
-Este repositorio contiene mi **portfolio web personal**, diseñado con una estética inspirada en terminales Linux y entornos de ciberseguridad.
+Soy **María León Martínez**, administradora de sistemas especializada en ciberseguridad, con formación en hacking ético, inteligencia artificial y sistemas informáticos en red.
 
-A través de la web puedes conocer mi trayectoria, consultar mis conocimientos técnicos y descubrir algunos de mis proyectos.
+Me interesa especialmente la monitorización de seguridad, el análisis de vulnerabilidades, la respuesta ante incidentes y la protección de infraestructuras.
 
-### 🛠️ Tecnologías utilizadas
+Actualmente, mi objetivo es seguir creciendo profesionalmente en posiciones Junior de **SOC Analyst, Cybersecurity Analyst y Blue Team Analyst**.
 
-- **HTML5:** estructura y contenido de la web.
-- **CSS3:** diseño responsive, animaciones, efectos visuales y estilos personalizados.
+## 🚀 Sobre el proyecto
+
+Este repositorio contiene mi portfolio web personal, desarrollado para presentar mi perfil profesional, mi experiencia, mi formación y algunos de los proyectos que he realizado.
+
+La web tiene una estética inspirada en terminales Linux y entornos de ciberseguridad, con un diseño oscuro, detalles en rosa neón y verde terminal, y una interfaz adaptada a dispositivos móviles.
+
+## 🛠️ Tecnologías utilizadas
+
+- **HTML5:** estructura y contenido.
+- **CSS3:** diseño responsive, animaciones y efectos visuales.
 - **JavaScript:** funcionalidades e interactividad.
-- **Lucide Icons:** iconografía de la interfaz.
+- **Lucide Icons:** iconos de la interfaz.
 - **Google Fonts:** tipografías Fira Code y Press Start 2P.
 
-### 🔐 ¿Qué encontrarás en mi portfolio?
+## 🔐 ¿Qué encontrarás?
 
-- 👩🏻‍💻 **Sobre mí:** perfil profesional y objetivos.
-- 🛡️ **Ciberseguridad:** análisis de vulnerabilidades, hardening, monitorización y respuesta ante incidentes.
-- 🖥️ **Sistemas y redes:** Linux, Active Directory, TCP/IP, DNS y DHCP.
-- 💼 **Experiencia profesional:** trayectoria en sistemas, desarrollo y gestión de incidencias.
-- 🎓 **Formación y certificaciones:** estudios especializados en ciberseguridad, hacking ético, inteligencia artificial y cloud computing.
-- 🧪 **Proyectos:** trabajos relacionados con pentesting, análisis de vulnerabilidades y Machine Learning.
+- **Sobre mí:** presentación y objetivos profesionales.
+- **Habilidades técnicas:** ciberseguridad, sistemas y redes.
+- **Experiencia laboral:** experiencia en desarrollo, sistemas y gestión de incidencias.
+- **Formación:** ciberseguridad, hacking ético, inteligencia artificial y cloud computing.
+- **Certificaciones:** Microsoft Azure Fundamentals (AZ-900).
+- **Proyectos:** trabajos de pentesting, análisis de vulnerabilidades y Machine Learning.
+- **Contacto:** información para conectar conmigo profesionalmente.
 
-## 🎨 Diseño
+## 🧪 Proyectos destacados
 
-La interfaz utiliza una estética *dark mode* con detalles en rosa neón y verde terminal, tipografías monoespaciadas y elementos visuales inspirados en la línea de comandos.
+### 🔎 Riesgos ocultos: análisis de vulnerabilidades y compromiso del sistema
 
-El diseño está adaptado a diferentes tamaños de pantalla para facilitar la navegación tanto desde ordenador como desde dispositivos móviles.
+Evaluación de seguridad de la máquina DC:9 de VulnHub, incluyendo reconocimiento, enumeración, explotación controlada, escalada de privilegios y propuestas de remediación.
+
+**Tecnologías y conceptos:** Pentesting, SQL Injection, LFI, SSH, OWASP, NIST y CIS Benchmarks.
+
+### 🤖 Machine Learning aplicado a la salud femenina
+
+Desarrollo de un modelo predictivo relacionado con el síndrome de ovario poliquístico, desde el preprocesamiento y análisis de datos hasta la evaluación e interpretación mediante Explainable AI.
+
+**Tecnologías y conceptos:** Python, Machine Learning, SHAP, XAI y análisis de datos.
 
 ## 🎯 Objetivo
 
-Este proyecto forma parte de mi desarrollo profesional y de mi aprendizaje continuo en tecnología.
-
-Mi objetivo es seguir creciendo en el ámbito de la **ciberseguridad, especialmente en posiciones Junior SOC Analyst, Cybersecurity Analyst y Blue Team Analyst**, mientras continúo ampliando mis conocimientos en sistemas, redes y cloud computing.
+Este portfolio es una muestra de mi aprendizaje y evolución en el ámbito tecnológico. Mi intención es seguir desarrollando proyectos prácticos, ampliar mis conocimientos y crecer profesionalmente en ciberseguridad.
 
 ---
 
